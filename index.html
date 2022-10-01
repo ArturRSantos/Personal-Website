@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .contentor {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+      }
+
+      .navbar {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: inherit;
+        height: 5rem;
+      }
+
+      .navbarLinks {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        transition: 1s ease-in;
+      }
+
+      .navbarLinks:hover {
+        font-size: 1.5rem;
+      }
+
+      .heroSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: inherit;
+        height: 100vh;
+        background-color: #fec89a;
+      }
+
+      .heroSectionContent {
+        margin-left: 5rem;
+        font-size: 5rem;
+      }
+
+      .section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: inherit;
+        height: 100vh;
+        background-color: #ffd7ba;
+      }
+
+      .sectionContent {
+        margin-left: 5rem;
+        font-size: 2rem;
+      }
+
+      .section1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: inherit;
+        height: 100vh;
+        background-color: #ece4db;
+      }
+
+      .sectionContent1 {
+        margin-left: 5rem;
+        font-size: 4rem;
+      }
+      .section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: inherit;
+        height: 100vh;
+        background-color: #e3d5ca;
+      }
+
+      .sectionContent2 {
+        margin-left: 5rem;
+        font-size: 4rem;
+      }
+
+      .section3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: inherit;
+        height: 100vh;
+        background-color: #f8edeb;
+      }
+
+      .sectionContent3 {
+        margin-left: 5rem;
+        font-size: 4rem;
+      }
+
+      .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: inherit;
+        height: 5rem;
+        background-color: #fec5bb;
+      }
+
+      .footerContent {
+        margin-left: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contentor">
+      <nav class="navbar">
+        <a href="/game.html" class="navbarLinks">
+          <p>Game</p>
+        </a>
+        <a href="/gameIdeas.html" class="navbarLinks">
+          <p>Game Ideas</p>
+        </a>
+        <a href="/autor.html" class="navbarLinks">
+          <p>Autor</p>
+        </a>
+      </nav>
+      <header class="heroSection">
+        <h1 class="heroSectionContent">Welcome</h1>
+        <p>This is my personal website &#127947;</p>
+      </header>
+      <section class="section3">
+        <h1 class="sectionContent3">Powered by:</h1>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+      <section class="section">
+        <p>Faz scroll down para descobrir :)</p>
+        <h1 class="sectionContent">What does this website contain?</h1>
+      </section>
+      <section class="section1">
+        <p>
+          Rock Paper Scissors <br /><br /><a
+            href="/game.html"
+            class="navbarLinks"
+            >Play! &#129302;</a
+          >
+          &#160; &#128072;--- click
+        </p>
+        <h1 class="sectionContent1">Games</h1>
+      </section>
+      <section class="section2">
+        <h1 class="sectionContent2">To-do List</h1>
+        <p>
+          Jogos que quero fazer no futuro <br /><br /><a
+            class="navbarLinks"
+            href="/gameIdeas.html"
+            >Ideas&#129504;</a
+          >
+          &#160; &#128072;--- click
+        </p>
+      </section>
+      <section class="section3">
+        <h1 class="sectionContent3">About me</h1>
+        <p>
+          Get to know me <br /><br /><a class="navbarLinks" href="/autor.html"
+            >Artur &#129492;</a
+          >
+          &#160; &#128072;--- click
+        </p>
+      </section>
+      <footer class="footer">
+        <p class="footerContent">Artur Santos © 2022</p>
+      </footer>
+    </div>
+  </body>
+</html>
